@@ -1,0 +1,30 @@
+test_10_game_init (__main__.MontecarloSuite) ... ok
+test_11_play_values (__main__.MontecarloSuite) ... ok
+test_12_play_index_column (__main__.MontecarloSuite) ... ok
+test_13_play_column_name (__main__.MontecarloSuite) ... ok
+test_14_play_column_name (__main__.MontecarloSuite) ... ok
+test_15_game_show_wide (__main__.MontecarloSuite) ... ok
+test_16_game_show_narrow (__main__.MontecarloSuite) ... ok
+test_17_catch_exception_in_game_show (__main__.MontecarloSuite) ... montecarlo_test.py:220: DeprecationWarning: callable is None
+  self.assertRaises(TypeError, game.show(wide="banana"))
+ok
+test_18_analyzer_init (__main__.MontecarloSuite) ... ok
+test_19_jackpot_count (__main__.MontecarloSuite) ... ok
+test_1_change_weight (__main__.MontecarloSuite) ... ok
+test_20_jackpot_df (__main__.MontecarloSuite) ... ok
+test_22_combo (__main__.MontecarloSuite) ... ok
+test_23_face_counts_per_roll (__main__.MontecarloSuite) ... ok
+test_2_change_weight_float (__main__.MontecarloSuite) ... ok
+test_3_change_weight_int (__main__.MontecarloSuite)
+3 ... ok
+test_4_change_weight_num_string (__main__.MontecarloSuite) ... ok
+test_5_change_weight_nonnum_string (__main__.MontecarloSuite) ... ok
+test_6_change_weight_rejects_face (__main__.MontecarloSuite) ... ok
+test_7_roll_twice (__main__.MontecarloSuite) ... ok
+test_8_roll_three_times (__main__.MontecarloSuite) ... ok
+test_9_show_die (__main__.MontecarloSuite) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.823s
+
+OK
